@@ -20,10 +20,10 @@ def all_models():
     ])
 
     lr_param_grid = {
-                    'dummie__fit_intercept': [True, False],
-                    'dummie__copy_X': [True, False],
-                    'dummie__n_jobs': [int(x) for x in np.linspace(start = 200, stop = 2000, num = 10)],
-                    'dummie__positive': [True, False]}
+                    'Linreg__fit_intercept': [True, False],
+                    'Linreg__copy_X': [True, False],
+                    'Linreg__n_jobs': [int(x) for x in np.linspace(start = 200, stop = 2000, num = 10)],
+                    'Linreg__positive': [True, False]}
 
     lr = ['Linreg',lr_pipeline,lr_param_grid]
 
