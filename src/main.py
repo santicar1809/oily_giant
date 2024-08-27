@@ -12,10 +12,9 @@ def main():
     data = load_datasets() #Loading stage
     preprocessed_data = preprocess_data(data) #Preprocessing stage
     eda_report(preprocessed_data) # Feature engineering stage
-    results = iterative_modeling(preprocessed_data) # Modeling stage
-    rev_report(preprocessed_data)
+    iterative_modeling(preprocessed_data) # Modeling stage
+    results = rev_report(preprocessed_data)
     return results
 
 results = main()
-
 print(results)

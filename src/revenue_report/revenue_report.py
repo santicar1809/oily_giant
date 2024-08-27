@@ -63,3 +63,5 @@ def rev_report(data):
                             index=['Region_0','Region_1','Region_2'])
     report_df.to_csv('./files/modeling_output/reports/revenue_report.csv')
     
+    return report_df
+    

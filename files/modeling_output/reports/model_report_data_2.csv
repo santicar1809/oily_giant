@@ -1,4 +1,5 @@
 model,best_estimator,best_train_score,rmse_score,r2_score,eam_val
-Linreg,"Pipeline(steps=[('Linreg', LinearRegression(n_jobs=2000, positive=True))])",-1605.2541333549075,40.02968880302267,0.2052483752794163,32.79266969433174
+Linreg,"Pipeline(steps=[('Linreg',
+                 LinearRegression(copy_X=False, n_jobs=400, positive=True))])",-1605.2541333549075,40.02968880302267,0.2052483752794163,32.79266969433174
 Linrego,"Pipeline(steps=[('Linreg', LinearRegression())])",-1605.3036106213506,40.02970873393434,0.20524758386040443,32.792652105481814
 dummie,"Pipeline(steps=[('dummie', DummyRegressor())])",-1997.9763662599275,44.90234968510566,-1.181722384835382e-05,37.92100829387219
